@@ -1,0 +1,19 @@
+{
+  "name": "chessmateengine",
+  "version": "1.0.0",
+  "description": "chess engine using node-addon-api",
+  "main": "index.js",
+  "scripts": {
+    "configure": "node-gyp configure",
+    "build": "node-gyp build",
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "node-addon-api": "^8.5.0",
+    "node-gyp": "^11.5.0"
+  }
+}
