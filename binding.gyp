@@ -1,8 +1,8 @@
 {
   "targets": [
     {
-      "target_name": "addon",
-      "sources": ["addon.cpp"],
+      "target_name": "chessMate",
+      "sources": ["chessmate.cpp"],
       "include_dirs": [
         "C:/Users/shayc/Desktop/Coding/ChessMateEngine/node_modules/node-addon-api"
       ],
